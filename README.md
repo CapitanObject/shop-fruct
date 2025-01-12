@@ -1,3 +1,59 @@
-# shop-fruct
+# ФрешМаркет
 
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/CapitanObject/shop-fruct)
+Онлайн-магазин свежих фруктов, овощей и натуральных соков.
+
+## Технологии
+
+- React 18
+- TypeScript
+- Tailwind CSS
+- Vite
+- Lucide React для иконок
+
+## Функционал
+
+- Просмотр категорий продуктов
+- Каталог товаров с фильтрацией по категориям
+- Корзина покупок
+- Оформление заказа
+- Авторизация и регистрация пользователей
+- Личный кабинет
+
+## Установка и запуск
+
+1. Клонируйте репозиторий:
+```bash
+git clone https://github.com/your-username/fresh-market.git
+cd fresh-market
+```
+
+2. Установите зависимости:
+```bash
+npm install
+```
+
+3. Запустите проект:
+```bash
+npm run dev
+```
+
+## Структура проекта
+
+```
+src/
+  ├── components/     # React компоненты
+  ├── constants/      # Константы и моковые данные
+  ├── contexts/       # React контексты
+  ├── pages/          # Страницы приложения
+  ├── types/          # TypeScript типы
+  ├── utils/          # Вспомогательные функции
+  ├── App.tsx         # Корневой компонент
+  └── main.tsx        # Точка входа
+```
+
+## Скрипты
+
+- `npm run dev` - Запуск в режиме разработки
+- `npm run build` - Сборка проекта
+- `npm run preview` - Предпросмотр собранного проекта
+- `npm run lint` - Проверка кода линтером
